@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="corporate">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML vs HTML5</title>
+    <link rel="shortcut icon" href="./images/banner1.png" type="image/x-icon" />
+
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- Tailwind CSS and Daisy UI  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom Tailwind CSS -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              "common-color": "#131318",
+            },
+          },
+        },
+      };
+    </script>
+
+    <!-- Custom CSS -->
+    <style>
+      .font-Manrope {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+
+
+
+  </head>
+  <body class="font-Manrope box-border">
+    <!-- header section -->
+    <header class="container mx-auto px-8 lg:px-24 mb-24">
+
+        <div class="carousel w-full md:h-[600px]">
+          <div class="carousel-item relative w-full">
+            <img src="./images/banner.png" class="w-full" />
+          </div>
+    </header>
+
+    <!-- main -->
+    <main class="container mx-auto px-8 lg:px-24 mb-24">
+        <!-- html -->
+        <section class="mb-24">
+            <div class="hero" style="background-image: url(./images/html.png);">
+  <div class="hero-overlay bg-opacity-60"></div>
+  <div class="hero-content text-center text-neutral-content">
+    <div class="max-w-md">
+      <h1 class="mb-5 text-8xl font-extrabold">HTML</h1>
+      <p class="mb-5 font-semibold text-2xl text-white opacity-70">HTML stands for Hyper Text Markup Language. It is used to design web pages using a markup language. HTML is a combination of Hypertext and Markup language. Hypertext defines the link between the web pages. A markup language is used to define the text document within the tag which defines the structure of web pages. This language is used to annotate (at the note for the computer) text so that a machine can understand it and manipulate text accordingly.</p>
+
+    </div>
+  </div>
+</div>
+        </section>
+
+         <!-- html5 -->
+        <section class="mb-24">
+            <div class="hero" style="background-image: url(./images/html5.png);">
+  <div class="hero-overlay bg-opacity-60"></div>
+  <div class="hero-content text-center text-neutral-content">
+    <div class="max-w-md">
+      <h1 class="mb-5 text-8xl font-extrabold">HTML5</h1>
+      <p class="mb-5 font-semibold text-2xl text-white opacity-70">HTML 5 is the fifth and current version of HTML. It has improved the markup available for documents and has introduced application programming interfaces(API) and Document Object Model(DOM). It has introduced various new features like drag and drop, geo-location services</p>
+
+    </div>
+  </div>
+</div>
+        </section>
+
+<!-- html vs html5 -->
+
+<section class="mb-24">
+    <div class="overflow-x-auto">
+  <table class="table">
+    <!-- head -->
+    <thead>
+      <tr>
+        <th></th>
+        <th class="font-extrabold text-3xl">HTML</th>
+        <th class="font-extrabold text-3xl">HTML5</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- row 1 -->
+      <tr>
+        <th>1</th>
+        <td>It didn’t support audio and video without the use of flash player support.</td>
+        <td>It supports audio and video controls with the use of &lt;audio&gl;  and &lt;video&gl; tags.</td>
+      </tr>
+      <!-- row 2 -->
+      <tr>
+        <th>2</th>
+        <td>It uses cookies to store temporary data.</td>
+        <td>It uses SQL databases and application cache to store offline data.</td>
+      </tr>
+      <!-- row 3 -->
+      <tr>
+        <th>3</th>
+        <td>Does not allow JavaScript to run in the browser.</td>
+        <td>Allows JavaScript to run in the background. This is possible due to JS Web worker API in HTML5.</td>
+      </tr>
+      <!-- row 4 -->
+      <tr>
+        <th>4</th>
+        <td>Vector graphics are possible in HTML with the help of various technologies such as VML, Silver-light, Flash, etc.</td>
+        <td>Vector graphics are additionally an integral part of HTML5 like SVG and Canvas.</td>
+      </tr>
+      <!-- row 5 -->
+      <tr>
+        <th>5</th>
+        <td>It does not allow drag and drop effects.</td>
+        <td>It allows drag and drop effects.</td>
+      </tr>
+      <!-- row 6 -->
+      <tr>
+        <th>6</th>
+        <td>Not possible to draw shapes like circle, rectangle, triangle etc.</td>
+        <td>HTML5 allows to draw shapes like circle, rectangle, triangle etc.</td>
+      </tr>
+
+    </tbody>
+  </table>
+</div>
+
+</section>
+
+</main>
+
+
+  </body>
+</html>
